@@ -1,0 +1,100 @@
+baseURL: # if your site is in 'https', then make sure your base url isn't written using 'http' otherwise your sitemap would contain http (as opposeed to https) URLs. This would affect Google indexing of your URLs.
+title: Kevin León Jouvin
+paginate: 5
+theme: charlolamode
+
+
+
+# menu:
+   # main:
+        #- name: Contact
+        #  url: /contact/
+        #  weight: 30
+        #- name: Articles
+        #  url: /articles/
+        #  weight: 20
+        #- name: Projects
+        #  url: /projects/
+        #  weight: 15
+
+     # - name: Categories
+        #   url: /categories/
+        #   weight: 10
+        # - name: new Tab
+        #   url: /newtab/
+        #   weight: defines order of tabs
+   
+
+
+params:
+    author: Kevin León
+
+
+    defaultTheme: auto
+    # disableThemeToggle: true
+    ShowShareButtons: true
+    ShowReadingTime: false
+    displayFullLangName: true
+    ShowBreadCrumbs: false
+    ShowCodeCopyButtons: true
+    ShowToc: false
+
+    profileMode:
+        # Disable to populate home page with 'mainSections' content
+        enabled: true
+        title: Kevin León
+        description: |
+
+          Hello, I am Kevin.
+           
+           I am an International Management student. 
+           
+           I like to learn new things and listen to salsa. 
+        
+
+          This is my minimalistic website.
+        imageUrl: "/images/ProfilePictureLinkedIn.jpg"
+        imageTitle: my image
+        # imageWidth: 120
+        # imageHeight: 120
+        #buttons:
+        #    - name: Don't click me
+        #      url: https://www.youtube.com/watch?v=dQw4w9WgXcQ
+
+
+    socialIcons:
+        - name: linkedin
+          url: "https://www.linkedin.com/in/kevinleonj/"
+        - name: spotify
+          url: "https://open.spotify.com/user/chevlon15"
+        - name: instagram
+          url: "https://www.instagram.com/kevinleonj/"
+
+      # add more social icons. find more in svg.html file
+      # - name: youtube
+      #   url: yoururl
+      # - name: twitter
+      #   url: yoururl
+      # - name: facebook
+      #   url: yoururl
+
+
+    # change favicon in images folder (icon for web tab)
+    assets:
+          favicon: "/images/ProfilePictureLinkedInNoBackgroundPixelIcon.ico"
+          favicon16x16: "/images/ProfilePictureLinkedInNoBackgroundPixel.png"
+          favicon32x32: "/images/ProfilePictureLinkedInNoBackgroundPixel.png"
+          apple_touch_icon: "/images/ProfilePictureLinkedInNoBackgroundPixel.png.png"
+          safari_pinned_tab: "/images/ProfilePictureLinkedInNoBackgroundPixel.png.png"
+
+
+
+enableInlineShortcodes: true
+enableRobotsTXT: true
+enableEmoji: true
+pygmentsUseClasses: true
+
+minify:
+    disableXML: true
+
+
